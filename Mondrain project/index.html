@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mondrain Painting</title>
+    <style>
+        .flex-container{
+            display: flex;
+            justify-content: center;
+        }
+        .grid-container{
+            background-color: #000;
+            width: 1070px;
+            height: 795px;
+            display: grid;
+            grid-template-rows: 200px 250px 150px 150px;
+            grid-template-columns: 60px 120px 280px 120px 200px 100px 100px;
+            gap: 15px;
+        }
+        .white{
+            background-color: #f0f1ec;
+        }
+        .yellow{
+            background-color: #ffd414;
+        }
+        .blue{
+            background-color: #004592 ;
+        }
+        .red{
+            background-color: #e72f24 ;
+        }
+        .item4 , .item16, .item20, .item21{
+            grid-column: span 2;
+        }
+        .item13, .item14{
+            grid-row: span 2;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="grid-container">
+            <div class="white item1"></div>
+            <div class="yellow item2"></div>
+            <div class="blue item3"></div>
+            <div class="red item4"></div>
+            <div class="yellow item5"></div>
+            <div class="white item6"></div>
+            <div class="white item7"></div>
+            <div class="white item8"></div>
+            <div class="white item9"></div>
+            <div class="white item10"></div>
+            <div class="blue item11"></div>
+            <div class="red item12"></div>
+            <div class="white item13"></div>
+            <div class="white item14"></div>
+            <div class="white item15"></div>
+            <div class="red item16"></div>
+            <div class="white item17"></div>
+            <div class="yellow item18 "></div>
+            <div class="blue item19"></div>
+            <div class="yellow item20"></div>
+            <div class="white item21"></div>
+            <div class="white item22"></div>
+        </div>
+    </div>
+</body>
+</html>
